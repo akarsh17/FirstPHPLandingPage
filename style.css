@@ -1,0 +1,61 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container{
+  max-width: 80%;
+
+  padding: 34px;
+  margin: auto;
+}
+
+.container h1{
+  text-align: center;
+}
+
+input, textarea{
+  border: 2px solid grey;
+  border-radius: 4px;
+  font-size: 12px;
+  outline: none;
+  width: 60%;
+  margin: 4px 0px;
+  padding: 5px;
+  display: block;
+}
+
+form{
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn{
+  color: white;
+  padding: 3px 19px;
+  margin: 3px;
+  background-color: blueviolet;
+  font-size: 15px;
+  border-radius: 3px;
+  display: block;
+  outline: none;
+  cursor: pointer;
+}
+
+.amity{
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  /* opacity: 1; */
+
+}
+
+#onsubmit{
+  color: yellow;
+  text-align: center;
+  font-style: italic;
+  margin: 5px 0px 0px 0px;
+}
