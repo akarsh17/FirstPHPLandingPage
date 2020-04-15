@@ -71,8 +71,7 @@
         <button class="btn" name="submit">Submit</button>
         <button class="btn" name="reset">Reset</button>
         <input type="reset" value="Reset" onClick="window.location.reload()">
-        <!-- <p>/etc/mysql/sudo nano debian.cnf   User: debian-sys-maint</p>
-        <p>Password: IPd6kKcG47SlQVdY</p> -->
+        
       </form>
 
     </div>
