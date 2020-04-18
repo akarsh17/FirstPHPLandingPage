@@ -3,7 +3,7 @@
 // Set connection variables
   $server = 'localhost';
   $user = 'phpmyadmin';
-  $pass = "tictactoe";
+  $pass = "tyour_password_here";
 
 // Create a database connection
   $con = mysqli_connect($server, $user, $pass);
